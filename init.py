@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""
-Estrai da un PDF solo le pagine specificate e crea un nuovo PDF.
-
-USO:
-    python estrai_pagine.py input.pdf "1-5,7,12-14" output.pdf
-"""
-
 import argparse
 from pypdf import PdfReader, PdfWriter   # pip install pypdf
 
